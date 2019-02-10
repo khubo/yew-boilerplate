@@ -1,0 +1,15 @@
+[package]
+name = "todo"
+version = "0.1.0"
+authors = ["khubo(aswin) <aswinrajv@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+stdweb = "0.4"
+
+[dependencies.yew]
+git = "https://github.com/DenisKolodin/yew"
+
+[lib]
+name = "todo"
+path = "src/lib.rs"
